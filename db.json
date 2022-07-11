@@ -1,14 +1,25 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "productCopy": [{
+            "id":"1",
+            "title": "Lorem ipsum Title 1",
+            "Image": "https://www.dove.com/content/dam/unilever/dove/india/pack_shot/front/skin_care/skin_care_unidentified/26th_sep-644497.png.ulenscale.320x320.png",
+            "link": "/product-detail",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "id":"2",
+            "title": "Lorem ipsum Title 2",
+            "Image": "https://www.dove.com/content/dam/unilever/dove/india/pack_shot/front/skin_cleansing/skin_cleansing/dove_75_gms/Dove_Cream_Beauty_Soap_Bar_75g_8901030215902-308379.png.ulenscale.320x320.png",
+            "link": "/product-detail/1",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "id":"3",
+            "title": "Lorem ipsum Title 3",
+            "Image": "https://www.dove.com/content/dam/unilever/dove/india/pack_shot/front/skin_cleansing/skin_cleansing/dove_fresh_moisturesoap75gms/Dove_Fresh%20Moisture_75g_8901030361463-308331.png.ulenscale.320x320.png",
+            "link": "/product-detail/2",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        }
+    ]
 }
+
